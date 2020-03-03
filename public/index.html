@@ -8,10 +8,11 @@
 
 <body onload="load_function()">
     <h1>Basic Level Event Annotation</h1>
+
     <img id="image" class="avatar" annotation_identifier="None" src="None.svg">
+    <h2>If we generalize from the <b>child node (down)</b> to the parent node (up):</h2>
 
-    <p id="counter">Loading button click data.</p>
-
+    <p>what proportion of the main participants are alike? (1 means none, 7 means identical)</p>
     <select id="participants">
         <option value="1">1</option>
         <option value="2">2</option>
@@ -24,6 +25,7 @@
         <option value="ns">Nonsensible subclass of relationship</option>
     </select>
 
+    <p>what proportion of the main subevents are alike? (1 means none, 7 means identical)</p>
     <select id="subevents">
         <option value="1">1</option>
         <option value="2">2</option>
@@ -35,7 +37,9 @@
         <option value="dk">Don't know</option>
         <option value="ns">Nonsensible subclass of relationship</option>
     </select>
-    <button id="myButton">Click me!</button>
+
+    <p>After entering a value to both dropdown menus above, please click the button below:</p>
+    <button id="myButton">Save annotation</button>
 
 </body>
 <script src="client.js"></script>
