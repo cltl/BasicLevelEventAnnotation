@@ -25,9 +25,9 @@ bash install.sh
 Run 
 
 ```
-node server.js test // for testing purposes, contains only two items
-node server.js other // to annotate all top ten children except sport
-node server.js sport // to annotate the sport subgraph
+node server.js test // [2 items] for testing purposes, contains only two items
+node server.js other // [91 items] to annotate all top ten children except sport
+node server.js sport // [89 items] to annotate the sport subgraph
 ```
 
 Point your browser towards *http://localhost:8080/*
