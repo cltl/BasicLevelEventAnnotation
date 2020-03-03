@@ -51,7 +51,7 @@ app.use(express.static('public'));
 
 // start the express web server listening on 8080
 app.listen(8080, () => {
-    console.log('listening on 8080');
+    console.log('please go in your browser to http://localhost:8080/');
 });
 
 // serve the homepage
