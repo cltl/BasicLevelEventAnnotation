@@ -4,6 +4,8 @@ The goal of this tool is to enable annotation for Basic Level Events.
 
 ## Install node.js
 
+Please first install node.js. This can take quite some time as homebrew typically will first update itself
+before installing other packages.
 ```
 brew install node
 ```
